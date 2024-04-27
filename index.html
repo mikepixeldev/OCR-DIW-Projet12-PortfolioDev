@@ -24,6 +24,7 @@
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C0DCNBD5VG"></script>
+
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -46,6 +47,35 @@
     <meta name="twitter:description"
         content="Portfolio de Mikaël Posty, développeur web front-end spécialisé en React. Découvrez mes compétences, projets et contributions en développement intégrateur web">
     <meta name="twitter:image" content="./img/logo-mike-pixel.webp">
+
+    <!-- Début Cookies -->
+    <script>
+        // Définissez dataLayer et la fonction gtag.
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied',
+            'regions': ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'IS', 'LI', 'NO']
+        });
+
+        // Définissez le consentement par défaut pour toutes les autres régions selon vos besoins
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied'
+        });
+
+    </script>
+
+    <!-- Start cookieyes banner -->
+    <script id="cookieyes" type="text/javascript"
+        src="https://cdn-cookieyes.com/client_data/5912cd638d1d275dab0a285e/script.js"></script>
+    <!-- Fin Cookies -->
 
     <!-- Autres liens et scripts -->
     <script src="https://kit.fontawesome.com/3c74274841.js" crossorigin="anonymous"></script>
