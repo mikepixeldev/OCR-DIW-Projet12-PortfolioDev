@@ -21,7 +21,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
   margin: 5%;
 }
 
@@ -150,7 +149,6 @@ p {
 }
 
 footer {
-  width: 100%;
   text-align: center;
   background-color: var(--main-bg-color);
   padding: 20px;
@@ -175,7 +173,6 @@ footer a:hover {
 /* Media queries */
 @media (max-width: 768px) {
   .social-media-links {
-    width: 40%;
     max-width: 450px;
     gap: 20px;
   }
@@ -184,12 +181,21 @@ footer a:hover {
   }
 }
 @media (max-width: 455px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
   .social-media-links {
-    width: 40%;
     max-width: 370px;
     gap: 15px;
   }
   .social-media-links a {
     font-size: 1.8em;
+  }
+  footer p {
+    font-size: 0.8rem;
   }
 }
