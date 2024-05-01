@@ -320,10 +320,47 @@ footer {
   padding: 1em;
 }
 
-/******************************** Medias Queries ********************************/
+/* ==========================================================================
+   RESPONSIVE DESIGN
+   Adaptations spécifiques pour différentes tailles d'écran
+   ========================================================================== */
 
-/* Media queries pour tablettes */
-@media (min-width: 768px) {
+/************************************** Smartphones **************************************/
+/* ********** XS · max 428 dp ********** */
+@media only screen and (min-width: 320px) {
+  /* Styles pour très petits écrans et mode zoom iOS */
+}
+
+@media only screen and (min-width: 360px) {
+  /* Styles pour smartphones */
+}
+
+@media only screen and (min-width: 375px) {
+  /* Styles pour iPhone 6-8 */
+}
+
+@media only screen and (min-width: 390px) {
+  /* Styles pour iPhone modernes */
+}
+
+@media only screen and (min-width: 428px) {
+  /* Styles pour iPhone Plus & Max modernes */
+}
+
+/* ********** S · 428 - 600 dp ********** */
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+  /* Styles adaptés pour les petits smartphones plus grands (S) */
+}
+
+/* ********** M · 601 - 768 dp ********** */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* Styles spécifiques pour les appareils de taille moyenne (M) */
+}
+
+/************************************** Tablettes **************************************/
+/* ********** L · 768 - 1024 dp ********** */
+@media only screen and (min-width: 768px) {
+  /* Styles pour tablettes en portrait */
   h1 {
     font-size: 2.5rem;
   }
@@ -352,8 +389,12 @@ footer {
   }
 }
 
-/* Media queries pour desktop */
-@media (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
+  /* Styles pour tablettes en paysage et petits laptops */
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Styles pour dispositifs autour de 1024px */
   h1 {
     font-size: 3rem;
   }
@@ -362,9 +403,6 @@ footer {
   }
   h3 {
     font-size: 1.75rem;
-  }
-
-  .projet {
   }
 
   .projet-texte,
@@ -380,8 +418,25 @@ footer {
   }
 }
 
-/******************************** Medias Queries pour vieux smartphones ********************************/
+/************************************** Desktop **************************************/
+/* ********** XL · 1025 - 1440 dp ********** */
+@media only screen and (min-width: 1280px) {
+  /* Styles pour grands écrans de bureau */
+}
 
-@media only screen and (min-width: 320px) {
-  /* Styles pour très petits écrans */
+@media only screen and (min-width: 1360px) {
+  /* Styles pour MacBook 13" */
+}
+
+/* ********** XXL · min 1441 dp ********** */
+@media only screen and (min-width: 1440px) {
+  /* Styles pour MacBook 15" */
+}
+
+@media only screen and (min-width: 1920px) {
+  /* Styles pour écrans extra-larges */
+}
+
+@media only screen and (min-width: 2560px) {
+  /* Styles pour écrans extra-larges */
 }
