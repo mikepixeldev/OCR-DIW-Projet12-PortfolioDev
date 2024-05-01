@@ -97,28 +97,31 @@
 </head>
 
 <body>
+
     <header>
+
         <div class="branding">
-            <a id="accueil" href="#accueil">
+            <a id="accueil" href="#accueil" aria-label="Retour à l'accueil">
                 <p class="brand">mikaël posty</p>
                 <img class="logo" src="./assets/img/logo-portfolio.png"
                     alt="Logo portfolio développeur web de Mikaël Posty">
             </a>
         </div>
-        <nav>
+        <nav aria-label="Navigation principale">
             <div class="menu">
                 <ul>
-                    <li><a href="#competences">Compétences</a></li>
-                    <li><a href="#projets">Projets</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#competences" aria-label="Naviguer vers la section compétences">Compétences</a></li>
+                    <li><a href="#projets" aria-label="Naviguer vers la section projets">Projets</a></li>
+                    <li><a href="#contact" aria-label="Naviguer vers la section contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
+
     </header>
 
     <main>
 
-        <section id="about">
+        <section id="about" aria-label="À propos de moi">
             <div class="hero">
                 <div class="hero-text">
                     <h1>Salut, je suis Mikaël Posty</h1>
@@ -127,11 +130,10 @@
             </div>
         </section>
 
-        <section id="competences">
+        <section id="competences" aria-label="Mes compétences">
             <h2>COMPÉTENCES</h2>
             <div class="competence">
-                <div class="competence
-                -texte">
+                <div class="competence-texte">
                     <h3>Intégration web</h3>
                     <p>Maîtrise des langages HTML, CSS et JavaScript pour créer des sites web responsives et
                         accessibles.</p>
@@ -139,120 +141,103 @@
             </div>
         </section>
 
-
-        <section id="projets">
+        <section id="projets" aria-label="Projets réalisés">
             <h2>PROJETS</h2>
-
             <div class="projet-cards">
                 <div class="projet sophieblue">
                     <div class="projet-texte projet-half">
-
-                        <h3>
-                            Sophie Bluel Architecte
-                        </h3>
-
+                        <h3>Sophie Bluel Architecte</h3>
                         <p>J’ai développé une interface interactive en JavaScript pour un portfolio d’architecte
                             d’intérieur, dans le cadre d’un
                             projet avec OpenClassRooms. Cette interface intègre des fonctionnalités dynamiques grâce à
                             la manipulation du DOM et à
                             la gestion des interactions utilisateurs, via une API REST.</p>
-
                         <a class="repo-link"
-                            href="https://github.com/mikepixeldev/OCR-DIW-Projet6-SophieBlue-Architecte">
+                            href="https://github.com/mikepixeldev/OCR-DIW-Projet6-SophieBlue-Architecte" target="_blank"
+                            rel="noopener noreferrer" title="Voir le projet Sophie Bluel Architecte sur GitHub"
+                            aria-label="Voir le projet Sophie Bluel Architecte sur GitHub">
                             <p>Voir le projet sur GitHub</p> <i class="fa-brands fa-github"></i>
                         </a>
-
                     </div>
                     <div class="projet-pres projet-half">
-
                         <img class="img-projet" src="./assets/img/sophiebluel-logo.png"
                             alt="Logo du projet Sophie Bluel - Architecte">
-
                         <div class="technos"><i class="fa-brands fa-js"></i><i class="fa-brands fa-html5"></i> <i
                                 class="fa-brands fa-css3-alt"></i></i></div>
                     </div>
                 </div>
                 <div class="projet ohmyfood">
-                    <di class="projet-texte projet-half">
-
-                        <h3>
-                            Ohmyfood
-                        </h3>
-
+                    <div class="projet-texte projet-half">
+                        <h3>Ohmyfood</h3>
                         <p>Optimisation d’une interface mobile avec Sass et animations CSS. Dans ce projet
                             OpenClassRooms, j’ai transformé
                             l’interface d’une start-up en adoptant une approche mobile-first, en utilisant Sass pour une
                             gestion efficace du CSS et
                             en intégrant des animations pour améliorer l’expérience utilisateur.</p>
-
-                        <a class="repo-link" href="https://github.com/mikepixeldev/OCR-DIW-Projet4-Ohmyfood">
+                        <a class="repo-link" href="https://github.com/mikepixeldev/OCR-DIW-Projet4-Ohmyfood"
+                            target="_blank" rel="noopener noreferrer" title="Voir le projet Ohmyfood sur GitHub"
+                            aria-label="Voir le projet Ohmyfood sur GitHub">
                             <p>Voir le projet sur GitHub</p> <i class="fa-brands fa-github"></i>
                         </a>
-
-                    </di>
+                    </div>
                     <div class="projet-pres projet-half">
-
                         <img class="img-projet" src="./assets/img/ohmyfood-logo.png" alt="Logo du projet Ohmyfood">
-
                         <div class="technos"><i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i
                                 class="fa-brands fa-sass"></i></div>
                     </div>
                 </div>
                 <div class="projet cinematch">
-                    <di class="projet-texte projet-half">
-
-                        <h3>
-                            Cinématch
-                        </h3>
-
+                    <div class="projet-texte projet-half">
+                        <h3>Cinématch</h3>
                         <p>Simplification de la sélection de films via une interface inspirée par Tinder.
                             <br> Ce prototype d’application iOS, conçu en Swift & Swift UI dans le cadre de
-                            l’<a
-                                href="https://www.apple.com/fr/newsroom/2018/10/apple-announces-first-of-its-kind-coding-program-in-france">Apple
-                                Foundation Program</a>, permet une
+                            l’<a href="https://www.apple.com/fr/newsroom/2018/10/apple-announces-first-of-its-kind-coding-program-in-france"
+                                target="_blank" rel="noopener noreferrer"
+                                title="Lire plus sur l'Apple Foundation Program"
+                                aria-label="En savoir plus sur l'Apple Foundation Program">Apple Foundation Program</a>,
+                            permet une
                             sélection rapide de films grâce à des gestes intuitifs.
                         </p>
-
-                        <a class="repo-link" href="https://github.com/mikepixeldev/cinematch-prototype-alpha">
+                        <a class="repo-link" href="https://github.com/mikepixeldev/cinematch-prototype-alpha"
+                            target="_blank" rel="noopener noreferrer" title="Voir le projet Cinématch sur GitHub"
+                            aria-label="Voir le projet Cinématch sur GitHub">
                             <p>Voir le projet sur GitHub</p> <i class="fa-brands fa-github"></i>
                         </a>
-
-                    </di>
+                    </div>
                     <div class="projet-pres projet-half">
-
                         <img class="img-projet" src="./assets/img/cinematch-logo.png"
                             alt="Logo du projet d'app Cinématch">
-
                         <div class="technos"><i class="fa-brands fa-apple"></i><i class="fa-brands fa-swift"></i><i
                                 class="fa-brands fa-app-store"></i></div>
                     </div>
                 </div>
             </div>
-            <a class="projets-voir-plus" href="https://github.com/mikepixeldev?tab=repositories">
+            <a class="projets-voir-plus" href="https://github.com/mikepixeldev?tab=repositories" target="_blank"
+                rel="noopener noreferrer" title="Voir plus de projets sur GitHub"
+                aria-label="Explorer plus de projets sur GitHub">
                 <i class="fa-brands fa-github"></i>
                 <p>Voir plus de projets sur GitHub</p>
             </a>
-            </div>
+        </section>
 
-            <section id="parcours">
+        <section id="parcours" aria-label="Mon parcours professionnel">
+        </section>
 
-            </section>
-
-            <section id="contact">
-
-
-            </section>
+        <section id="contact" aria-label="Me contacter">
+        </section>
 
     </main>
 
     <footer>
         <div>
             <p id="copyright">© <span id="year"></span> – Code with love ♥️ by
-                <a href="https://mikaelposty.fr/" target="_blank" title="Visitez mon site personnel">Mike</a>
+                <a href="https://mikaelposty.fr/" target="_blank" rel="noopener noreferrer"
+                    title="Visitez mon site personnel" aria-label="Visitez mon site personnel">Mike</a>
             </p>
         </div>
     </footer>
 
 </body>
+
 
 </html>
