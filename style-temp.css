@@ -320,6 +320,22 @@ footer {
   padding: 1em;
 }
 
+/* Bouton de retour en haut */
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px;
+  background-color: #091c3b;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 4.1em;
+  height: 4.1em;
+  cursor: pointer;
+}
+
 /* ==========================================================================
    RESPONSIVE DESIGN
    Adaptations spécifiques pour différentes tailles d'écran
@@ -415,6 +431,20 @@ footer {
     transform: scale(1.2);
     transition: transform 0.3s ease;
     text-decoration: none;
+  }
+
+  /* Bouton de retour en haut */
+  #backToTop {
+    width: 4.5em;
+    height: 4.5em;
+    opacity: 0.7;
+  }
+
+  #backToTop:hover {
+    opacity: 1;
+  }
+  #backToTop:focus {
+    outline: 2px solid red;
   }
 }
 
