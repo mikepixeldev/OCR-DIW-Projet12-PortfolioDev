@@ -197,7 +197,7 @@ main {
   box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.4);
 }
 
-.sophieblue {
+.sophiebluel {
   background-color: #b1663c;
 }
 
@@ -233,8 +233,8 @@ main {
   margin: 0;
 }
 
-/* Bouton du projet Sophie Blue */
-.sophieblue .repo-link {
+/* Bouton du projet Sophie Bluel */
+.sophiebluel .repo-link {
   background-color: #b1663c;
 }
 
@@ -334,10 +334,11 @@ footer {
   padding: 20px;
   background-color: #091c3b;
   color: white;
-  border: none;
+  border: 2px solid #fbd304;
   border-radius: 50%;
-  width: 4.1em;
-  height: 4.1em;
+  font-size: 12px;
+  width: 3.8rem;
+  height: 3.8rem;
   cursor: pointer;
 }
 
