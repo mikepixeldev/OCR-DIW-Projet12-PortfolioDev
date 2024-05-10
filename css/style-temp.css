@@ -320,12 +320,17 @@ footer {
   padding: 1em;
 }
 
+#copyright {
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
 /* Bouton de retour en haut */
 #backToTop {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 3rem;
+  right: 1rem;
   padding: 20px;
   background-color: #091c3b;
   color: white;
