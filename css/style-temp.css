@@ -108,6 +108,10 @@ header {
   background-color: #091c3b;
 }
 
+.branding {
+  padding-bottom: 1em;
+}
+
 #accueil {
   display: flex;
   flex-direction: row;
@@ -119,15 +123,15 @@ header {
   font-family: "Jersey 25", sans-serif;
   font-size: 3em;
   font-weight: 400;
-  color: white;
+  color: #fbd304;
   font-style: normal;
   margin: 0;
   padding: 0;
-  display: none;
 }
 
 .logo {
   height: 3em;
+  display: none;
 }
 
 nav {
@@ -313,6 +317,7 @@ main {
   font-weight: 800;
 }
 
+/************************************** Footer **************************************/
 footer {
   display: flex;
   justify-content: center;
@@ -393,7 +398,7 @@ footer {
     font-size: 1.5rem;
   }
 
-  .brand {
+  .logo {
     display: block;
   }
 
