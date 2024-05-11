@@ -178,22 +178,32 @@
 </head>
 
 <body>
-
+    <!-- Header -->
     <header>
-
+        <!-- Section de branding, contient le logo et le nom du site -->
         <div class="branding">
+            <!-- Lien de retour à l'accueil -->
             <a id="accueil" href="#accueil" aria-label="Retour à l'accueil">
+                <!-- Nom du site -->
                 <p class="brand">mikaël posty</p>
+                <!-- Logo du site -->
                 <img class="logo" src="./assets/img/logo-portfolio.png"
                     alt="Logo portfolio développeur web de Mikaël Posty">
             </a>
         </div>
+        <!-- Navigation principale du site -->
         <nav aria-label="Navigation principale">
+            <!-- Menu de navigation -->
             <div class="menu">
+                <!-- Liste des liens de navigation -->
                 <ul>
+                    <!-- Lien vers la section compétences -->
                     <li><a href="#competences" aria-label="Naviguer vers la section compétences">Compétences</a></li>
+                    <!-- Lien vers la section projets -->
                     <li><a href="#projets" aria-label="Naviguer vers la section projets">Projets</a></li>
-                    <li><a href="#parcours" aria-label="Naviguer vers la section parcours">Projets</a></li>
+                    <!-- Lien vers la section parcours -->
+                    <li><a href="#parcours" aria-label="Naviguer vers la section parcours">Parcours</a></li>
+                    <!-- Lien vers la section contact -->
                     <li><a href="#contact" aria-label="Naviguer vers la section contact">Contact</a></li>
                 </ul>
             </div>
@@ -203,30 +213,51 @@
 
     <main>
 
+        <!-- Section À propos de moi -->
         <section id="about" aria-label="À propos de moi">
+            <!-- Conteneur pour l'élément visuel principal (hero) -->
             <div class="hero">
+                <!-- Image principale de la section -->
+                <div class="hero-image">
+                    <!-- Memoji de Mikaël Posty -->
+                    <img src="./assets/img/memoji/hello-mike.webp" alt="Memoji de Mikaël Posty, développeur front-end">
+                </div>
+                <!-- Texte principal de la section -->
                 <div class="hero-text">
+                    <!-- Titre de la section -->
                     <h1>Salut, je suis Mikaël Posty</h1>
+                    <!-- Description professionnelle -->
                     <p>Développeur front-end spécialisé en React en France</p>
                 </div>
             </div>
         </section>
 
+        <!-- Section dédiée aux compétences -->
         <section id="competences" aria-label="Mes compétences">
+            <!-- Titre de la section des compétences -->
             <h2>COMPÉTENCES</h2>
+            <!-- Bloc de compétence spécifique -->
             <div class="competence">
+                <!-- Description de la compétence -->
                 <div class="competence-texte">
+                    <!-- Nom de la compétence -->
                     <h3>Intégration web</h3>
+                    <!-- Détails de la compétence -->
                     <p>Maîtrise des langages HTML, CSS et JavaScript pour créer des sites web responsives et
                         accessibles.</p>
                 </div>
             </div>
         </section>
 
+        <!-- Section dédiée aux projets réalisés -->
         <section id="projets" aria-label="Projets réalisés">
+            <!-- Titre de la section des projets -->
             <h2>PROJETS</h2>
+            <!-- Conteneur pour les cartes de projet -->
             <div class="projet-cards">
+                <!-- Projet individuel : Sophie Bluel Architecte -->
                 <div class="projet sophiebluel">
+                    <!-- Description du projet -->
                     <div class="projet-texte projet-half">
                         <h3>Sophie Bluel Architecte</h3>
                         <p>J’ai développé une interface interactive en JavaScript pour un portfolio d’architecte
@@ -234,6 +265,7 @@
                             projet avec OpenClassRooms. Cette interface intègre des fonctionnalités dynamiques grâce à
                             la manipulation du DOM et à
                             la gestion des interactions utilisateurs, via une API REST.</p>
+                        <!-- Lien vers le repository GitHub du projet -->
                         <a class="repo-link"
                             href="https://github.com/mikepixeldev/OCR-DIW-Projet6-SophieBluel-Architecte"
                             target="_blank" rel="noopener noreferrer"
@@ -242,14 +274,18 @@
                             <p>Voir le projet sur GitHub</p> <i class="fa-brands fa-github"></i>
                         </a>
                     </div>
+                    <!-- Présentation visuelle du projet -->
                     <div class="projet-pres projet-half">
                         <img class="img-projet" src="./assets/img/sophiebluel-logo.png"
                             alt="Logo du projet Sophie Bluel - Architecte">
+                        <!-- Icônes des technologies utilisées -->
                         <div class="technos"><i class="fa-brands fa-js"></i><i class="fa-brands fa-html5"></i> <i
                                 class="fa-brands fa-css3-alt"></i></i></div>
                     </div>
                 </div>
+                <!-- Projet individuel : Ohmyfood -->
                 <div class="projet ohmyfood">
+                    <!-- Description du projet -->
                     <div class="projet-texte projet-half">
                         <h3>Ohmyfood</h3>
                         <p>Optimisation d’une interface mobile avec Sass et animations CSS. Dans ce projet
@@ -257,19 +293,24 @@
                             l’interface d’une start-up en adoptant une approche mobile-first, en utilisant Sass pour une
                             gestion efficace du CSS et
                             en intégrant des animations pour améliorer l’expérience utilisateur.</p>
+                        <!-- Lien vers le repository GitHub du projet -->
                         <a class="repo-link" href="https://github.com/mikepixeldev/OCR-DIW-Projet4-Ohmyfood"
                             target="_blank" rel="noopener noreferrer" title="Voir le projet Ohmyfood sur GitHub"
                             aria-label="Voir le projet Ohmyfood sur GitHub">
                             <p>Voir le projet sur GitHub</p> <i class="fa-brands fa-github"></i>
                         </a>
                     </div>
+                    <!-- Présentation visuelle du projet -->
                     <div class="projet-pres projet-half">
                         <img class="img-projet" src="./assets/img/ohmyfood-logo.png" alt="Logo du projet Ohmyfood">
+                        <!-- Icônes des technologies utilisées -->
                         <div class="technos"><i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i
                                 class="fa-brands fa-sass"></i></div>
                     </div>
                 </div>
+                <!-- Projet individuel : Cinématch -->
                 <div class="projet cinematch">
+                    <!-- Description du projet -->
                     <div class="projet-texte projet-half">
                         <h3>Cinématch</h3>
                         <p>Simplification de la sélection de films via une interface inspirée par Tinder.
@@ -281,20 +322,24 @@
                             permet une
                             sélection rapide de films grâce à des gestes intuitifs.
                         </p>
+                        <!-- Lien vers le repository GitHub du projet -->
                         <a class="repo-link" href="https://github.com/mikepixeldev/cinematch-prototype-alpha"
                             target="_blank" rel="noopener noreferrer" title="Voir le projet Cinématch sur GitHub"
                             aria-label="Voir le projet Cinématch sur GitHub">
                             <p>Voir le projet sur GitHub</p> <i class="fa-brands fa-github"></i>
                         </a>
                     </div>
+                    <!-- Présentation visuelle du projet -->
                     <div class="projet-pres projet-half">
                         <img class="img-projet" src="./assets/img/cinematch-logo.png"
                             alt="Logo du projet d'app Cinématch">
+                        <!-- Icônes des technologies utilisées -->
                         <div class="technos"><i class="fa-brands fa-apple"></i><i class="fa-brands fa-swift"></i><i
                                 class="fa-brands fa-app-store"></i></div>
                     </div>
                 </div>
             </div>
+            <!-- Lien pour voir plus de projets -->
             <a class="projets-voir-plus" href="https://github.com/mikepixeldev?tab=repositories" target="_blank"
                 rel="noopener noreferrer" title="Voir plus de projets sur GitHub"
                 aria-label="Explorer plus de projets sur GitHub">
@@ -303,28 +348,39 @@
             </a>
         </section>
 
+        <!-- Section dédiée au parcours professionnel -->
         <section id="parcours" aria-label="Mon parcours professionnel">
+            <!-- Titre de la section du parcours -->
             <h2>PARCOURS</h2>
+            <!-- Ligne du temps pour représenter le parcours professionnel -->
             <div class="timeline">
+                <!-- Expérience professionnelle à EPITECH -->
                 <div class="experience timeline-left">
+                    <!-- Détails de l'expérience à EPITECH -->
                     <div class="timeline-infos">
                         <h3>EPITECH</h3>
                         <p>2009-2010</p>
                     </div>
                 </div>
+                <!-- Expérience professionnelle comme Social Media Manager -->
                 <div class="experience timeline-right">
+                    <!-- Détails de l'expérience en tant que Social Media Manager -->
                     <div class="timeline-infos">
                         <h3>Social Media Manager</h3>
                         <p>2010-2020</p>
                     </div>
                 </div>
+                <!-- Formation à Simplon -->
                 <div class="experience timeline-left">
+                    <!-- Détails de la formation à Simplon -->
                     <div class="timeline-infos">
                         <h3>Simplon</h3>
                         <p>2021</p>
                     </div>
                 </div>
+                <!-- Formation à OpenClassRooms -->
                 <div class="experience timeline-right">
+                    <!-- Détails de la formation à OpenClassRooms -->
                     <div class="timeline-infos">
                         <h3>OpenClassRooms</h3>
                         <p>2023-2024</p>
@@ -333,14 +389,21 @@
             </div>
         </section>
 
+        <!-- Section de contact principal -->
         <section id="contact" aria-label="Me contacter">
+            <!-- Titre de la section Contact -->
             <h2>CONTACT</h2>
         </section>
 
+        <!-- Section pour le suivi sur les réseaux sociaux -->
         <section id="social-media">
+            <!-- Conteneur animé pour inciter au suivi sur les réseaux sociaux -->
             <div id="animatedText" aria-label="Section de suivi sur les réseaux sociaux">
+                <!-- Conteneur de contenu pour les lignes de texte animées -->
                 <div class="content-container">
+                    <!-- Ligne de texte animé pour encourager à suivre sur les réseaux -->
                     <div class="text-line" role="text">Suivez-moi</div>
+                    <!-- Répétition de la ligne de texte pour effet d'animation -->
                     <div class="text-line" role="text">Suivez-moi</div>
                     <div class="text-line" role="text">Suivez-moi</div>
                     <div class="text-line" role="text">Suivez-moi</div>
@@ -350,16 +413,22 @@
 
     </main>
 
+    <!-- Pied de page global du site -->
     <footer>
         <div>
-            <p id="copyright">© <span id="year"></span> – v1.0 – Code with love ♥️ by
+            <!-- Mention de droit d'auteur avec l'année dynamique et version du site -->
+            <p id="copyright">
+                © <span id="year"></span> – v1.0 – Code with love ♥️ by
+                <!-- Lien vers le site personnel -->
                 <a href="https://mikaelposty.fr" target="_blank" rel="noopener noreferrer"
                     title="Visitez mon site personnel" aria-label="Visitez mon site personnel">Mike</a>
             </p>
         </div>
     </footer>
 
+    <!-- Bouton pour retourner en haut de la page -->
     <button id="backToTop" aria-label="Retour en haut de la page">
+        <!-- Icône du bouton avec aria-hidden pour éviter la lecture par les lecteurs d'écran -->
         <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
     </button>
 
