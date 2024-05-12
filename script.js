@@ -18,3 +18,23 @@ document.getElementById("backToTop").onclick = function () {
   document.documentElement.scrollTop = 0; // Pour Chrome, Firefox, IE, Edge et Opera
   document.body.focus(); // Pour éviter un bug de focus sur le bouton
 };
+
+// Script pour afficher l'email en entier
+document.addEventListener("DOMContentLoaded", function () {
+  var userEmail = "hello"; // Partie locale de l'email
+  var domain = "mikepixel.dev"; // Domaine de l'email
+  var emailContainer = document.getElementById("email-link");
+  emailContainer.innerHTML =
+    '<a href="mailto:' +
+    userEmail +
+    "@" +
+    domain +
+    '">' +
+    userEmail +
+    "@" +
+    domain +
+    "</a>";
+  emailContainer
+    .querySelector("a")
+    .setAttribute("aria-label", "Envoyer un email"); // Amélioration de l'accessibilité
+});

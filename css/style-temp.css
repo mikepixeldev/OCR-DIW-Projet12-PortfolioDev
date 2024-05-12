@@ -479,8 +479,60 @@ main {
 #contact {
   display: flex;
   flex-direction: column;
-  gap: 1.1em;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #091c3b;
   padding: 1.1rem;
+  margin: 0.5rem;
+  color: white;
+  border-radius: 12px;
+}
+
+.contact-info {
+  padding: 0 0 1rem 0;
+}
+
+.contact-info a {
+  font-weight: 700;
+  color: #fbd304;
+  cursor: pointer;
+}
+
+#social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
+  border-radius: 12px;
+  position: relative;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+#social-media::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  top: 0;
+  border-top: 2px solid #fbd304;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  height: 4rem;
+  color: white;
+}
+
+.social-icons a {
+  color: white;
+  cursor: pointer;
 }
 
 /************************************** Footer **************************************/
