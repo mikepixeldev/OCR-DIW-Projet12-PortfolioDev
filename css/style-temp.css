@@ -97,6 +97,8 @@ h3 {
   font-size: 1.25rem;
 }
 
+/************************************** Header **************************************/
+
 header {
   display: flex;
   flex-direction: column;
@@ -181,6 +183,14 @@ main {
   gap: 1.1em;
 }
 
+.hero-image {
+  align-self: center;
+}
+
+.hero-text {
+  padding: 0;
+}
+
 /************************************** Compétences **************************************/
 
 #competences {
@@ -201,6 +211,12 @@ main {
 
 #competences li {
   list-style-type: none;
+  list-style-type: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: rgba(9, 28, 59, 0.5);
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.4);
 }
 
 #competences i {
@@ -371,6 +387,7 @@ main {
   color: #091c3b;
   text-decoration: none;
   margin: 1em;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.4);
 }
 
 .projets-voir-plus p {
@@ -512,6 +529,7 @@ main {
 .collabs {
   display: flex;
   flex-direction: column;
+  gap: 0.3rem;
   padding: 0;
 }
 
@@ -726,12 +744,21 @@ footer {
   h3 {
     font-size: 1.25rem;
   }
-
+  #about,
   #competences,
   #projets,
   #parcours,
   #contact {
     padding: 1.5rem;
+  }
+
+  .collabs {
+    gap: 0.8rem;
+  }
+
+  .collab-logos img {
+    max-height: 3rem;
+    max-width: 100%;
   }
 }
 
@@ -753,6 +780,15 @@ footer {
     font-size: 1.5rem;
   }
 
+  #about,
+  #competences,
+  #projets,
+  #parcours,
+  #contact {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
   .logo {
     display: block;
   }
@@ -771,6 +807,9 @@ footer {
   }
 
   /***** Timeline *****/
+  .timeline {
+    margin: 0;
+  }
   .timeline::after {
     left: 50%;
   }
@@ -811,10 +850,35 @@ footer {
   .contact-img {
     width: auto;
   }
+  .collabs {
+    gap: 0.9rem;
+  }
+
+  .collab-logos img {
+    max-height: 3.5rem !important;
+    max-width: 100%;
+  }
+
+  .social-icons .fa-2xl {
+    font-size: 2.5rem;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   /* Styles pour tablettes en paysage et petits laptops */
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+  }
+
+  #social-media h3 {
+    align-self: center;
+  }
+  .social-icons {
+    width: 75%;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -829,6 +893,15 @@ footer {
     font-size: 1.75rem;
   }
 
+  #about,
+  #competences,
+  #projets,
+  #parcours,
+  #contact {
+    padding: 2.5rem;
+    margin: 2rem;
+  }
+
   .projet-texte,
   .projet-pres {
     padding: 4rem;
@@ -839,6 +912,14 @@ footer {
     transform: scale(1.2);
     transition: transform 0.3s ease;
     text-decoration: none;
+  }
+
+  .timeline-infos img {
+    max-height: 2rem;
+  }
+
+  .years-timeline {
+    font-size: 0.85rem;
   }
 
   /* Bouton de retour en haut */
@@ -860,6 +941,28 @@ footer {
 /* ********** XL · 1025 - 1440 dp ********** */
 @media only screen and (min-width: 1280px) {
   /* Styles pour grands écrans de bureau */
+  html {
+    font-size: 17px;
+  }
+
+  h1 {
+    font-size: 4.25rem;
+  }
+  h2 {
+    font-size: 7.5rem;
+  }
+  h3 {
+    font-size: 5.25rem;
+  }
+  .timeline-infos h3 {
+    font-size: 2rem;
+  }
+  .timeline-infos img {
+    max-height: 2.5rem;
+  }
+  .social-icons {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 1360px) {
