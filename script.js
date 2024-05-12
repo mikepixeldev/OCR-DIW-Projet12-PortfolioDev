@@ -1,15 +1,26 @@
-// Script pour afficher l'année en cours dans le footer
+// Script pour initialiser le footer et l'email lors du chargement de la page
 document.addEventListener("DOMContentLoaded", function () {
+  // Mettre à jour l'année en cours dans le footer
   var currentYear = new Date().getFullYear();
   document.getElementById("year").textContent = currentYear;
+
+  // Configurer l'email complet
+  var userEmail = "hello"; // Partie locale de l'email
+  var domain = "mikepixel.dev"; // Domaine de l'email
+  var emailContainer = document.getElementById("email-link");
+  emailContainer.innerHTML = `<a href="mailto:${userEmail}@${domain}">${userEmail}@${domain}</a>`;
+  emailContainer
+    .querySelector("a")
+    .setAttribute("aria-label", "Envoyer un email"); // Amélioration de l'accessibilité
 });
 
 // Bouton pour remonter en haut de la page
 window.onscroll = function () {
+  var backToTopBtn = document.getElementById("backToTop");
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("backToTop").style.display = "block";
+    backToTopBtn.style.display = "block";
   } else {
-    document.getElementById("backToTop").style.display = "none";
+    backToTopBtn.style.display = "none";
   }
 };
 
@@ -18,23 +29,3 @@ document.getElementById("backToTop").onclick = function () {
   document.documentElement.scrollTop = 0; // Pour Chrome, Firefox, IE, Edge et Opera
   document.body.focus(); // Pour éviter un bug de focus sur le bouton
 };
-
-// Script pour afficher l'email en entier
-document.addEventListener("DOMContentLoaded", function () {
-  var userEmail = "hello"; // Partie locale de l'email
-  var domain = "mikepixel.dev"; // Domaine de l'email
-  var emailContainer = document.getElementById("email-link");
-  emailContainer.innerHTML =
-    '<a href="mailto:' +
-    userEmail +
-    "@" +
-    domain +
-    '">' +
-    userEmail +
-    "@" +
-    domain +
-    "</a>";
-  emailContainer
-    .querySelector("a")
-    .setAttribute("aria-label", "Envoyer un email"); // Amélioration de l'accessibilité
-});
