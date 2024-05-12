@@ -225,9 +225,9 @@
                 <!-- Texte principal de la section -->
                 <div class="hero-text">
                     <!-- Titre de la section -->
-                    <h1>Salut, je suis Mikaël Posty</h1>
-                    <!-- Description professionnelle -->
-                    <p>Développeur front-end spécialisé en React en France</p>
+                    <h1>Salut, je suis Mikaël Posty
+                        <br> Développeur front-end spécialisé en React en France
+                    </h1>
                 </div>
             </div>
         </section>
@@ -260,9 +260,11 @@
                     <!-- Description du projet -->
                     <div class="projet-texte projet-half">
                         <h3>Sophie Bluel Architecte</h3>
-                        <p>J’ai développé une interface interactive en JavaScript pour un portfolio d’architecte
+                        <p><strong>J’ai développé une interface interactive en JavaScript</strong> pour un portfolio
+                            d’architecte
                             d’intérieur, dans le cadre d’un
-                            projet avec OpenClassRooms. Cette interface intègre des fonctionnalités dynamiques grâce à
+                            projet avec <strong>OpenClassRooms</strong>. Cette interface intègre des fonctionnalités
+                            dynamiques grâce à
                             la manipulation du DOM et à
                             la gestion des interactions utilisateurs, via une API REST.</p>
                         <!-- Lien vers le repository GitHub du projet -->
@@ -288,11 +290,13 @@
                     <!-- Description du projet -->
                     <div class="projet-texte projet-half">
                         <h3>Ohmyfood</h3>
-                        <p>Optimisation d’une interface mobile avec Sass et animations CSS. Dans ce projet
-                            OpenClassRooms, j’ai transformé
+                        <p><strong>Optimisation d’une interface mobile avec Sass et animations CSS.</strong> Dans ce
+                            projet
+                            <strong>OpenClassRooms</strong>, j’ai transformé
                             l’interface d’une start-up en adoptant une approche mobile-first, en utilisant Sass pour une
                             gestion efficace du CSS et
-                            en intégrant des animations pour améliorer l’expérience utilisateur.</p>
+                            en intégrant des animations pour améliorer l’expérience utilisateur.
+                        </p>
                         <!-- Lien vers le repository GitHub du projet -->
                         <a class="repo-link" href="https://github.com/mikepixeldev/OCR-DIW-Projet4-Ohmyfood"
                             target="_blank" rel="noopener noreferrer" title="Voir le projet Ohmyfood sur GitHub"
@@ -314,11 +318,12 @@
                     <div class="projet-texte projet-half">
                         <h3>Cinématch</h3>
                         <p>Simplification de la sélection de films via une interface inspirée par Tinder.
-                            <br> Ce prototype d’application iOS, conçu en Swift & Swift UI dans le cadre de
-                            l’<a href="https://www.apple.com/fr/newsroom/2018/10/apple-announces-first-of-its-kind-coding-program-in-france"
-                                target="_blank" rel="noopener noreferrer"
-                                title="Lire plus sur l'Apple Foundation Program"
-                                aria-label="En savoir plus sur l'Apple Foundation Program">Apple Foundation Program</a>,
+                            <br> <strong>Ce prototype d’application iOS, conçu en Swift & Swift UI, dans le cadre de
+                                l’<a href="https://www.apple.com/fr/newsroom/2018/10/apple-announces-first-of-its-kind-coding-program-in-france"
+                                    target="_blank" rel="noopener noreferrer"
+                                    title="Lire plus sur l'Apple Foundation Program"
+                                    aria-label="En savoir plus sur l'Apple Foundation Program">Apple Foundation
+                                    Program</a></strong>,
                             permet une
                             sélection rapide de films grâce à des gestes intuitifs.
                         </p>
@@ -358,8 +363,12 @@
                 <div class="experience timeline-left">
                     <!-- Détails de l'expérience à EPITECH -->
                     <div class="timeline-infos">
-                        <h3>EPITECH</h3>
-                        <p>2009-2010</p>
+                        <h3 class="visually-hidden">EPITECH</h3>
+                        <a href="https://www.epitech.eu" target="_blank" rel="noopener noreferrer"
+                            title="Visitez le site d'EPITECH" aria-label="Visitez le site d'EPITECH">
+                            <img src="./assets/img/parcours/epitech-logo.webp" alt="Logo de l'école EPITECH"></a>
+                        <p>École d'ingénieur en informatique</p>
+                        <p class="years-timeline">2009-2010</p>
                     </div>
                 </div>
                 <!-- Expérience professionnelle comme Social Media Manager -->
@@ -367,23 +376,49 @@
                     <!-- Détails de l'expérience en tant que Social Media Manager -->
                     <div class="timeline-infos">
                         <h3>Social Media Manager</h3>
-                        <p>2010-2020</p>
+                        <div class="collabs">
+                            <p>Collaborations avec</p>
+                            <div class="collab-logos" role="presentation">
+                                <a href="https://www.orange.com" target="_blank" rel="noopener noreferrer"
+                                    title="Visitez le site d'Orange" aria-label="Visitez le site d'Orange">
+                                    <img src="./assets/img/parcours/logo-orange.webp" alt="Logo Orange"> </a>
+
+                                <a href="https://www.groupe-sncf.com" target="_blank" rel="noopener noreferrer"
+                                    title="Visitez le site de SNCF" aria-label="Visitez le site de SNCF">
+                                    <img src="./assets/img/parcours/logo-sncf.webp" alt="Logo SNCF"></a>
+
+                                <a href="https://www.garesetconnexions.sncf" target="_blank" rel="noopener noreferrer"
+                                    title="Visitez le site de Gares & Connexions SNCF"
+                                    aria-label="Visitez le site de Gares & Connexions SNCF">
+                                    <img src="./assets/img/parcours/logo-gares-&-connexions-sncf.webp"
+                                        alt="Logo Gares & Connexions SNCF"></a>
+                            </div>
+                        </div>
+                        <p class="years-timeline">2010-2020</p>
                     </div>
                 </div>
                 <!-- Formation à Simplon -->
                 <div class="experience timeline-left">
                     <!-- Détails de la formation à Simplon -->
                     <div class="timeline-infos">
-                        <h3>Simplon</h3>
-                        <p>2021</p>
+                        <h3 class="visually-hidden">Simplon</h3>
+                        <a href="https://simplon.co" target="_blank" rel="noopener noreferrer"
+                            title="Visitez le site de Simplon" aria-label="Visitez le site de Simplon">
+                            <img src="./assets/img/parcours/simplon-logo.webp" alt="Logo de l'école Simplon"></a>
+                        <p><i class="fa-brands fa-apple"></i> Apple Foundation Program</p>
+                        <p class="years-timeline">2021</p>
                     </div>
                 </div>
                 <!-- Formation à OpenClassRooms -->
                 <div class="experience timeline-right">
                     <!-- Détails de la formation à OpenClassRooms -->
                     <div class="timeline-infos">
-                        <h3>OpenClassRooms</h3>
-                        <p>2023-2024</p>
+                        <h3 class="visually-hidden">OpenClassRooms</h3>
+                        <a href="https://openclassrooms.com" target="_blank" rel="noopener noreferrer"
+                            title="Visitez le site d'OpenClassRooms" aria-label="Visitez le site d'OpenClassRooms">
+                            <img src="./assets/img/parcours/logo-openclassrooms.webp" alt="Logo d'OpenClassRooms"></a>
+                        <p>Formation Développeur intégrateur web</p>
+                        <p class="years-timeline">2023-2024</p>
                     </div>
                 </div>
             </div>
