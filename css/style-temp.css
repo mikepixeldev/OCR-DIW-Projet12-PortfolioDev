@@ -935,6 +935,15 @@ footer {
     font-size: 0.85rem;
   }
 
+  #contact p,
+  .contact-info {
+    align-self: center;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
   /* Bouton de retour en haut */
   #backToTop {
     width: 4.5em;
