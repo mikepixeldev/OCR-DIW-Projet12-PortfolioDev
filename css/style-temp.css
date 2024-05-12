@@ -8,18 +8,18 @@
 /* Importation des polices personnalisées */
 @font-face {
   font-family: "LilGrotesk";
-  src: url("./assets/fonts/lilgrotesk-regular-webfont.woff2") format("woff2"),
-    url("./assets/fonts/lilgrotesk-regular-webfont.woff") format("woff"),
-    url("./assets/fonts/LilGrotesk-Regular.otf") format("opentype");
+  src: url("../assets/fonts/lilgrotesk-regular-webfont.woff2") format("woff2"),
+    url("../assets/fonts/lilgrotesk-regular-webfont.woff") format("woff"),
+    url("../assets/fonts/LilGrotesk-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "LilGrotesk";
-  src: url("./assets/fonts/lilgrotesk-bold-webfont.woff2") format("woff2"),
-    url("./assets/fonts/lilgrotesk-bold-webfont.woff") format("woff"),
-    url("./assets/fonts/LilGrotesk-Bold.otf") format("opentype");
+  src: url("../assets/fonts/lilgrotesk-bold-webfont.woff2") format("woff2"),
+    url("../assets/fonts/lilgrotesk-bold-webfont.woff") format("woff"),
+    url("../assets/fonts/LilGrotesk-Bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
 }
