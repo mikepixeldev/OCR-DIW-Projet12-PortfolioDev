@@ -915,6 +915,10 @@ footer {
     margin: 2rem;
   }
 
+  #competences li {
+    padding-left: 1rem;
+  }
+
   .projet-texte,
   .projet-pres {
     padding: 4rem;
