@@ -58,7 +58,7 @@ h6 {
 
 /* Styles pour les liens */
 a {
-  color: #0077cc; /* Couleur des liens */
+  color: #fbd304; /* Couleur des liens */
   text-decoration: none; /* Supprime le soulignement par défaut */
 }
 
@@ -80,14 +80,12 @@ article {
   padding: 0.4rem; /* Un peu de padding à l'intérieur des boîtes */
 }
 
-/* STYLE TEST */
-
 html {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -168,6 +166,10 @@ main {
   flex-direction: column;
   gap: 1.1em;
   padding: 1.1rem;
+  margin: 0.5rem;
+  background-color: #dbcdbc;
+  border-radius: 12px;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.4);
 }
 
 #competences {
@@ -175,6 +177,10 @@ main {
   flex-direction: column;
   gap: 1.1em;
   padding: 1.1rem;
+  margin: 0.5rem;
+  background-color: #dbcdbc;
+  border-radius: 12px;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.4);
 }
 
 #projets {
@@ -195,7 +201,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  border: #222 solid 1px;
   border-radius: 12px;
   padding: 0;
   box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.4);
@@ -486,6 +491,11 @@ main {
   margin: 0.5rem;
   color: white;
   border-radius: 12px;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+#contact h2 {
+  margin: 0;
 }
 
 .contact-info {
@@ -496,6 +506,11 @@ main {
   font-weight: 700;
   color: #fbd304;
   cursor: pointer;
+}
+
+.contact-img {
+  width: 50%;
+  align-self: center;
 }
 
 #social-media {
@@ -546,6 +561,10 @@ footer {
 #copyright {
   font-size: 0.8rem;
   font-weight: 900;
+}
+
+#copyright a {
+  color: #c3342d;
 }
 
 /* Bouton de retour en haut */
