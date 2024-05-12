@@ -58,13 +58,14 @@ h6 {
 
 /* Styles pour les liens */
 a {
-  color: #fbd304; /* Couleur des liens */
-  text-decoration: none; /* Supprime le soulignement par défaut */
+  color: #fbd304;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover,
 a:focus {
-  text-decoration: underline; /* Ajoute un soulignement lors du survol ou de la mise au point */
+  text-decoration: underline;
 }
 
 /* Styles pour les images */
@@ -161,6 +162,8 @@ main {
   gap: 1.1rem;
 }
 
+/************************************** À propos **************************************/
+
 #about {
   display: flex;
   flex-direction: column;
@@ -172,22 +175,65 @@ main {
   box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.4);
 }
 
+/************************************** Compétences **************************************/
+
 #competences {
   display: flex;
   flex-direction: column;
-  gap: 1.1em;
+  gap: 1.5em;
   padding: 1.1rem;
   margin: 0.5rem;
-  background-color: #dbcdbc;
+  background-color: #c3342d;
+  color: white;
   border-radius: 12px;
   box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.4);
 }
+
+#competences h2 {
+  margin: 0;
+}
+
+#competences li {
+  list-style-type: none;
+}
+
+#competences i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.skills-img {
+  width: 50%;
+  align-self: center;
+}
+
+.skills,
+.soft-skills,
+.design-focus {
+  padding: 0;
+}
+
+.skills-list,
+.soft-skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/************************************** Projets **************************************/
 
 #projets {
   display: flex;
   flex-direction: column;
   gap: 1.1em;
-  padding: 1.1rem;
+  margin: 0.5rem;
+  background-color: #eeeeee;
+  border-radius: 12px;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+#projets h2 {
+  padding-left: 1.1rem;
 }
 
 .projet-cards {
@@ -268,13 +314,17 @@ main {
   padding: 0.8rem;
   border: #f4f4f4 solid 1px;
   border-radius: 20px;
-  color: #f4f4f4;
+  color: black;
   text-decoration: none;
   margin: 1em;
 }
 .repo-link p {
   font-size: 0.8rem;
   font-weight: bold;
+}
+
+.ohmyfood .repo-link {
+  color: #f4f4f4;
 }
 
 .projet-pres {
@@ -329,8 +379,21 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1.1em;
-  padding: 1.1rem;
+
   background-color: #fbd304;
+  padding: 1.1rem;
+  margin: 0.5rem;
+  border-radius: 12px;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+#parcours h2 {
+  margin: 0;
+}
+
+.parcours-img {
+  width: 50%;
+  align-self: center;
 }
 
 /* Configuration de la ligne verticale de la frise chronologique */
