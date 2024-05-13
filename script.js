@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var currentYear = new Date().getFullYear();
   document.getElementById("year").textContent = currentYear;
 
-  // Configurer l'email complet
+  // Configurer l’e-mail complet
   var userEmail = "hello"; // Partie locale de l'email
   var domain = "mikepixel.dev"; // Domaine de l'email
   var emailContainer = document.getElementById("email-link");

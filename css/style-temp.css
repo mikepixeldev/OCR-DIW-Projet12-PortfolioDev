@@ -875,6 +875,12 @@ footer {
   .social-icons .fa-2xl {
     font-size: 2.5rem;
   }
+
+  .social-icons .fa-2xl:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    text-decoration: none;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -926,6 +932,12 @@ footer {
   }
 
   .repo-link:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    text-decoration: none;
+  }
+
+  .projets-voir-plus:hover {
     transform: scale(1.2);
     transition: transform 0.3s ease;
     text-decoration: none;
