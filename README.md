@@ -28,24 +28,26 @@ Le portfolio est construit avec les technologies suivantes :
 
 Voici un aperçu de la structure des fichiers du projet :
 
+```plaintext
 /
-├── index.html # Page principale du portfolio
+├── index.html              # Page principale du portfolio
 ├── css/
-│ ├── style-temp.css # Fichier CSS temporaire
-│ ├── cards.css # Fichier CSS pour les cartes
-│ ├── style-temp-min.css # Fichier CSS temporaire minifié
-│ ├── cards-min.css # Fichier CSS pour les cartes minifié
-├── script.js # Fichier JavaScript principal
-├── script-min.js # Fichier JavaScript principal minifié
-├── sitemap.xml # Fichier sitemap pour les moteurs de recherche
-├── robots.txt # Fichier robots.txt pour les moteurs de recherche
+│   ├── style-temp.css      # Fichier CSS temporaire
+│   ├── cards.css           # Fichier CSS pour les cartes
+│   ├── style-temp-min.css  # Fichier CSS temporaire minifié
+│   ├── cards-min.css       # Fichier CSS pour les cartes minifié
+├── script.js               # Fichier JavaScript principal
+├── script-min.js           # Fichier JavaScript principal minifié
+├── sitemap.xml             # Fichier sitemap pour les moteurs de recherche
+├── robots.txt              # Fichier robots.txt pour les moteurs de recherche
 ├── assets/
-│ ├── fonts/ # Répertoire des polices
-│ ├── img/
-│ │ ├── favicons/ # Répertoire des favicons
-│ │ ├── memojis/ # Répertoire des memojis
-│ │ └── parcours/ # Répertoire des images de parcours
-└── README.md # Ce fichier README
+│   ├── fonts/              # Répertoire des polices
+│   ├── img/
+│   │   ├── favicons/       # Répertoire des favicons
+│   │   ├── memojis/        # Répertoire des memojis
+│   │   └── parcours/       # Répertoire des images de parcours
+└── README.md               # Ce fichier README
+```
 
 ## Fonctionnalités
 
