@@ -191,6 +191,10 @@ main {
   padding: 0;
 }
 
+.hero-text p {
+  font-size: 1.1rem;
+}
+
 /************************************** Compétences **************************************/
 
 #competences {
