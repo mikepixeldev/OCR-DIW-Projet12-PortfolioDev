@@ -1,4 +1,4 @@
-# Portfolio Dev - Projet 12 - OpenClassRooms
+# Portfolio Dev — Projet 12 — OpenClassRooms
 
 Bienvenue sur le repository de mon portfolio personnel, disponible à l’adresse suivante : [portfolio.mikepixel.dev](https://portfolio.mikepixel.dev/).
 
@@ -21,7 +21,7 @@ Ce projet est mon portfolio personnel où je présente mes compétences, mes pro
 Le portfolio est construit avec les technologies suivantes :
 
 - **HTML5** : Pour la structure et le contenu des pages.
-- **CSS3/SASS**: CSS principalement pour le style et la mise en page. SASS est utilisé partiellement mais il devrait remplacer le CSS dans la prochaine version.
+- **CSS3/SASS** : CSS principalement pour le style et la mise en page. SASS est utilisé partiellement mais il devrait remplacer le CSS dans la prochaine version.
 - **JavaScript** : Utilisé de manière légère pour ajouter de l’interactivité aux pages.
 
 ## Structure du projet
@@ -47,11 +47,11 @@ Voici un aperçu de la structure des fichiers du projet :
 │   │   ├── memojis/        # Répertoire des memojis
 │   │   └── parcours/       # Répertoire des images de parcours
 └── README.md               # Ce fichier README
-```
+“`
 
 ## Fonctionnalités
 
-- **Design Responsive**: Le portfolio est optimisé pour toutes les tailles d’écran, offrant une expérience utilisateur cohérente sur les mobiles, tablettes et ordinateurs de bureau.
+- **Design Responsive** : Le portfolio est optimisé pour toutes les tailles d’écran, offrant une expérience utilisateur cohérente sur les mobiles, tablettes et ordinateurs de bureau.
 - **Interactivité légère** : Animations et transitions pour améliorer l’expérience utilisateur sans surcharger le site.
 
 ## Version
@@ -66,8 +66,11 @@ Voici un aperçu de la structure des fichiers du projet :
 
 ## Licence
 
-Ce projet est sous licence Apache 2.0. Voir le fichier [LICENSE](LICENSE.md) pour plus de détails.
+Ce projet est protégé par une licence propriétaire. Vous n’êtes pas autorisé à utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies de ce logiciel ou de toute partie de ce logiciel sans une permission écrite préalable de l’auteur.
+
+Pour toute demande d’utilisation ou de modification, veuillez contacter Mikaël Posty à l’adresse suivante : hello@mikepixeldev.
 
 ## Contact
 
 Pour toute question ou suggestion, n’hésitez pas à me contacter via le site.
+```
