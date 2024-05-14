@@ -1,3 +1,4 @@
+# Directives spécifiques pour les robots de moteurs de recherche
 User-agent: Googlebot
 Disallow:
 
@@ -7,4 +8,19 @@ Disallow:
 User-agent: Slurp
 Disallow:
 
+# Directives spécifiques pour les robots de Baidu, Ecosia, et DuckDuckGo
+User-agent: Baiduspider
+Disallow:
+
+User-agent: MojeekBot
+Disallow:
+
+User-agent: DuckDuckBot
+Disallow:
+
+# Directive globale pour tous les autres robots
+User-agent: *
+Disallow:
+
+# Emplacement du sitemap pour aider les robots à trouver toutes les pages importantes
 Sitemap: https://portfolio.mikepixel.dev/sitemap.xml
