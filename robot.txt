@@ -1,26 +1,80 @@
 # Directives spécifiques pour les robots de moteurs de recherche
+
+# Autoriser Googlebot
 User-agent: Googlebot
-Disallow:
+Disallow: /*.php$
+Disallow: /*.cgi$
+Disallow: /*.jsp$
+Disallow: /*.asp$
+Disallow: /*.aspx$
+Disallow: /*.cfm$
 
+# Autoriser Bingbot
 User-agent: Bingbot
-Disallow:
+Disallow: /*.php$
+Disallow: /*.cgi$
+Disallow: /*.jsp$
+Disallow: /*.asp$
+Disallow: /*.aspx$
+Disallow: /*.cfm$
 
+# Autoriser Slurp (Yahoo)
 User-agent: Slurp
-Disallow:
+Disallow: /*.php$
+Disallow: /*.cgi$
+Disallow: /*.jsp$
+Disallow: /*.asp$
+Disallow: /*.aspx$
+Disallow: /*.cfm$
 
-# Directives spécifiques pour les robots de Baidu, Ecosia, et DuckDuckGo
+# Autoriser Baiduspider (Baidu)
 User-agent: Baiduspider
-Disallow:
+Disallow: /*.php$
+Disallow: /*.cgi$
+Disallow: /*.jsp$
+Disallow: /*.asp$
+Disallow: /*.aspx$
+Disallow: /*.cfm$
 
-User-agent: MojeekBot
-Disallow:
-
+# Autoriser DuckDuckBot (DuckDuckGo)
 User-agent: DuckDuckBot
-Disallow:
+Disallow: /*.php$
+Disallow: /*.cgi$
+Disallow: /*.jsp$
+Disallow: /*.asp$
+Disallow: /*.aspx$
+Disallow: /*.cfm$
+
+# Autoriser EcosiaBot (Ecosia)
+User-agent: EcosiaBot
+Disallow: /*.php$
+Disallow: /*.cgi$
+Disallow: /*.jsp$
+Disallow: /*.asp$
+Disallow: /*.aspx$
+Disallow: /*.cfm$
+
+# Autoriser BraveBot (Brave)
+User-agent: BraveBot
+Disallow: /*.php$
+Disallow: /*.cgi$
+Disallow: /*.jsp$
+Disallow: /*.asp$
+Disallow: /*.aspx$
+Disallow: /*.cfm$
+
+# Autoriser Qwantify (Qwant)
+User-agent: Qwantify
+Disallow: /*.php$
+Disallow: /*.cgi$
+Disallow: /*.jsp$
+Disallow: /*.asp$
+Disallow: /*.aspx$
+Disallow: /*.cfm$
 
 # Directive globale pour tous les autres robots
 User-agent: *
-Disallow:
+Disallow: /
 
 # Emplacement du sitemap pour aider les robots à trouver toutes les pages importantes
 Sitemap: https://portfolio.mikepixel.dev/sitemap.xml
