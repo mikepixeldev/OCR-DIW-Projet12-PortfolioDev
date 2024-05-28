@@ -286,6 +286,15 @@ main {
   background-color: #7459a2;
 }
 
+.kasa {
+    background-color: #FF6060;
+}
+
+/* Bouton du projet Kasa */
+.kasa .repo-link {
+    background-color: #FF6060;
+}
+
 .cinematch {
   background-color: #03a062;
 }
