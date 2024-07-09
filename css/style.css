@@ -822,7 +822,7 @@ footer {
     text-decoration: none;
   }
   .projets-voir-plus:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     transition: transform 0.3s ease;
     text-decoration: none;
   }
