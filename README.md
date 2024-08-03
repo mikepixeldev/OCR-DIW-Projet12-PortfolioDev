@@ -72,5 +72,5 @@ Pour toute demande d’utilisation ou de modification, veuillez contacter Mikaë
 
 ## Contact
 
-Pour toute question ou suggestion, n’hésitez pas à me contacter via le site.
+Pour toute question ou suggestion, n’hésitez pas à me contacter via mon e-mail.
 ```
