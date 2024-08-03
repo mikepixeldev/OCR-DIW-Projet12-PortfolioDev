@@ -66,9 +66,9 @@ Voici un aperçu de la structure des fichiers du projet :
 
 ## Licence
 
-Ce projet est protégé par une licence propriétaire. Vous n’êtes pas autorisé à utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies de ce logiciel ou de toute partie de ce logiciel sans une permission écrite préalable de l’auteur.
+Ce projet est protégé par une licence propriétaire. Il est mis à disposition à titre informatif et éducatif. Vous pouvez le consulter pour apprendre et vous inspirer, mais vous n’êtes pas autorisé à utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier, et/ou vendre des copies de ce logiciel sans une permission écrite préalable de l’auteur.
 
-Pour toute demande d’utilisation ou de modification, veuillez contacter Mikaël Posty à l’adresse suivante : hello@mikepixeldev.
+Pour toute demande d’utilisation ou de modification, veuillez contacter Mikaël Posty à l’adresse suivante : hello@mikepixeldev.
 
 ## Contact
 
